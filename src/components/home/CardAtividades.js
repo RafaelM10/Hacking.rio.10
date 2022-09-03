@@ -23,12 +23,12 @@ const CardAtividades = () => {
                 <CardActionArea>
                   <CardMedia
                     component="img"
-                    height="200"
+                    height="250"
                     image={item.image}
                     alt={item.image}
                   />
                   <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
+                    <Typography gutterBottom variant="h4" component="div">
                       {item.title}
                     </Typography>
                     <Typography variant="caption" color="text.secondary">

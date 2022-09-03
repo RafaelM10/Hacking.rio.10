@@ -33,18 +33,18 @@ const rawTheme = createTheme({
     }
   },
   typography: {
-    fontFamily: "'Work Sans', sans-serif",
+    fontFamily: "'Prompt', sans-serif",
     fontSize: 14,
-    fontWeightLight: 300, // Work Sans
-    fontWeightRegular: 400, // Work Sans
-    fontWeightMedium: 700, // Roboto Condensed
+    fontWeightLight: 300,
+    fontWeightRegular: 400,
+    fontWeightMedium: 700,
   },
 });
 
 const fontHeader = {
   color: rawTheme.palette.text.primary,
   fontWeight: rawTheme.typography.fontWeightMedium,
-  fontFamily: "'Roboto Condensed', sans-serif",
+  fontFamily: "'Prompt', sans-serif",
   textTransform: 'uppercase',
 };
 

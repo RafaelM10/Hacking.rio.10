@@ -2,7 +2,7 @@ import * as React from "react";
 import Typography from "./home/Typography";
 import Button from "./home/Button";
 import Layout from "./home/Layout";
-import capa from '../assets/robotica.jpg'
+import capa from '../assets/framevr.png'
 
 const backgroundImage = capa
 
@@ -19,10 +19,10 @@ export default function Header() {
         <img
           style={{ display: "none" }}
           src={backgroundImage}
-          alt="increase priority"
+          alt=""
         />
         <Typography color="inherit" align="center" variant="h2" marked="center">
-          Lorem ipsum dolor sit amet
+          Educação empreendedora no Metaverso
         </Typography>
         <Typography
           color="inherit"
@@ -30,16 +30,16 @@ export default function Header() {
           variant="h5"
           sx={{ mb: 4, mt: { sx: 4, sm: 10 } }}
         >
-         Lorem ipsum dolor sit amet
+         Suba agora mesmo no palco do empreendedor no metaverso!
         </Typography>
-        <Button
+        <a href="https://framevr.io/hackingrio10"><Button
           variant="contained"
           size="large"
           component="button"
           sx={{ minWidth: 200 }}
         >
-          saiba mais
-        </Button>
+        Entrar
+        </Button></a>
       </Layout>
     </div>
   );

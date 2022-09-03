@@ -5,8 +5,8 @@ function Letter({children}) {
     <Container>
       {children}
       <section className="letter">
-        <h1>FAVELA</h1>
-        <h1>RADICAL</h1>
+        <h1>educar &</h1>
+        <h1>empreender</h1>
       </section>
     </Container>
   );
